@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台灣微軟 11–12 月精彩活動一覽｜Microsoft Ignite × Agentic AI</title>
+<meta name="description" content="Microsoft Ignite 2026 線上登場，搭配 AI、Agent、雲端與資安精選課程與實體工作坊。立即報名台灣微軟 11–12 月活動，下載精選白皮書。">
+<meta property="og:title" content="台灣微軟 11–12 月精彩活動一覽｜Microsoft Ignite × Agentic AI">
+<meta property="og:description" content="Microsoft Ignite 2026（11/18–11/21 線上）、AI Agent 與資安技術課程、實體工作坊與精選白皮書，一頁掌握。">
+<meta property="og:type" content="website">
+<style>
+:root{
+  --bg:#f6f5f0; --surface:#ffffff; --ink:#14152b; --muted:#5b5e72; --line:#e6e4dc;
+  --navy:#101548; --navy-2:#1b2160; --blue:#2f6bff; --cyan:#22c3e6; --violet:#8b5cf6; --pink:#e44fa8; --green:#5ed16a; --orange:#ff9a3d;
+  --grad:linear-gradient(90deg,#2f6bff 0%,#7b5cf6 55%,#c04fd8 100%);
+  --radius:22px; --shadow:0 10px 30px rgba(20,21,43,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC","Segoe UI",system-ui,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.wrap{max-width:1180px;margin-inline:auto;padding-inline:24px}
+.grad-text{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:50;background:rgba(246,245,240,.85);backdrop-filter:blur(12px);border-block-end:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:20px;height:72px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:19px;white-space:nowrap}
+.logo{width:30px;height:30px;display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.logo i{display:block}.logo i:nth-child(1){background:#f25022}.logo i:nth-child(2){background:#7fba00}.logo i:nth-child(3){background:#00a4ef}.logo i:nth-child(4){background:#ffb900}
+.brand .x{color:var(--muted);font-weight:400}
+.nav ul{display:flex;gap:26px;list-style:none;margin:0 0 0 auto;padding:0}
+.nav ul a{text-decoration:none;font-weight:600;font-size:15px;color:#33354a}
+.nav ul a:hover{color:var(--blue)}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:12px 22px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:15px;font-family:inherit;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-dark{background:var(--navy);color:#fff;box-shadow:0 8px 20px rgba(16,21,72,.25)}
+.btn-light{background:#fff;color:var(--ink);border:1px solid var(--line)}
+.btn-grad{background:var(--grad);color:#fff;box-shadow:0 8px 22px rgba(123,92,246,.35)}
+.btn-sm{padding:9px 16px;font-size:14px}
+
+/* hero */
+.hero{position:relative;overflow:hidden;padding-block:72px 40px}
+.blob{position:absolute;border-radius:40% 60% 55% 45%;filter:blur(2px);opacity:.55;z-index:0}
+.blob.a{width:520px;height:420px;background:linear-gradient(135deg,#7fd8f5,#c9e8ff);inset-inline-start:-220px;top:40px}
+.blob.b{width:360px;height:520px;background:linear-gradient(160deg,#2f6bff,#b7a6ff);inset-inline-end:-120px;top:-20px;transform:rotate(12deg);opacity:.75}
+.hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.75);border:1px solid var(--line);border-radius:999px;padding:7px 16px;font-size:14px;font-weight:700;color:#3a3d55}
+.pill .dot{width:9px;height:9px;border-radius:50%;background:var(--violet);box-shadow:0 0 0 4px rgba(139,92,246,.2)}
+h1{font-size:clamp(40px,6.2vw,76px);line-height:1.12;margin:22px 0 22px;font-weight:900;letter-spacing:-.01em}
+.lead{font-size:18px;color:#3d4055;max-width:600px;margin:0 0 30px}
+.lead b{color:var(--ink)}
+.cta-row{display:flex;flex-wrap:wrap;gap:14px}
+.orb-box{position:relative;height:440px}
+.orb{position:absolute;inset:50% auto auto 50%;transform:translate(-50%,-50%);width:330px;height:330px;border-radius:50%;padding:14px;background:conic-gradient(from 200deg,#22c3e6,#5ed16a,#ffb900,#ff6b6b,#e44fa8,#8b5cf6,#2f6bff,#22c3e6);box-shadow:0 30px 70px rgba(47,107,255,.25)}
+.orb-in{width:100%;height:100%;border-radius:50%;background:radial-gradient(circle at 40% 30%,#283080,var(--navy) 65%);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+.orb-in small{color:#7fe3ff;font-weight:700;letter-spacing:.08em;font-size:13px}
+.orb-in strong{font-size:30px;line-height:1.2;margin:6px 0}
+.orb-in span{color:#cfd3ff;font-weight:700}
+.chip{position:absolute;background:#fff;border-radius:16px;padding:10px 16px;font-weight:700;font-size:15px;box-shadow:var(--shadow);white-space:nowrap;animation:float 5s ease-in-out infinite}
+.chip:nth-of-type(2){animation-delay:-1.2s}.chip:nth-of-type(3){animation-delay:-2.4s}.chip:nth-of-type(4){animation-delay:-3.6s}
+@keyframes float{50%{transform:translateY(-8px)}}
+.stats{position:relative;z-index:1;margin-top:56px;display:grid;grid-template-columns:repeat(3,1fr);background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.stat{display:flex;gap:16px;align-items:center;padding:24px 28px;border-inline-end:1px solid var(--line)}
+.stat:last-child{border-inline-end:0}
+.stat .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:22px;color:#fff;flex:none}
+.stat b{display:block;font-size:18px}
+.stat p{margin:0;color:var(--muted);font-size:14px}
+
+/* sections */
+section{padding-block:96px}
+.eyebrow{font-size:14px;font-weight:800;letter-spacing:.12em;color:var(--blue);text-transform:uppercase}
+h2{font-size:clamp(30px,4.2vw,50px);line-height:1.2;margin:12px 0 16px;font-weight:900}
+.sub{color:var(--muted);font-size:17px;max-width:760px;margin:0}
+
+/* ignite dark */
+.dark{background:radial-gradient(1000px 500px at 100% 100%,rgba(196,79,216,.28),transparent 60%),radial-gradient(800px 400px at 0% 0%,rgba(47,107,255,.25),transparent 60%),var(--navy);color:#fff}
+.dark .eyebrow{color:#7fe3ff}.dark .sub{color:#c9cdf0}
+.ignite-top{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:end}
+.date-card{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:var(--radius);padding:26px}
+.date-card .big{font-size:40px;font-weight:900;line-height:1.1}
+.date-card p{margin:6px 0 18px;color:#c9cdf0}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:48px}
+.hl{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:26px 24px}
+.hl .n{color:#9aa0d6;font-weight:800;font-size:14px}
+.hl .k{font-size:44px;font-weight:900;line-height:1.2;margin:14px 0 10px}
+.hl p{margin:0;color:#dfe2ff;font-size:15px}
+.k1{color:#4fd6f2}.k2{color:#a68bff}.k3{color:#ff6fb8}.k4{color:#7be08a}
+.topics{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.topics span{border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:6px 14px;font-size:14px;color:#e6e8ff}
+
+/* events */
+.ev-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
+.filters{display:flex;gap:8px;flex-wrap:wrap}
+.filters button{font-family:inherit;border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 18px;font-weight:700;font-size:14px;cursor:pointer;color:#33354a}
+.filters button[aria-pressed="true"]{background:var(--navy);color:#fff;border-color:var(--navy)}
+.ev-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:36px}
+.ev{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;display:flex;flex-direction:column;position:relative;overflow:hidden;border:1px solid transparent}
+.ev::before{content:"";position:absolute;inset:0 0 auto 0;height:5px;background:var(--grad)}
+.ev.featured{border-color:#cfc3ff}
+.ev-meta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.tag{border-radius:8px;padding:3px 10px;font-size:13px;font-weight:800}
+.tag.online{background:#e7f0ff;color:#2459d6}
+.tag.onsite{background:#fdeaf4;color:#b8327f}
+.tag.series{background:#f1edff;color:#6a45d8}
+.tag.invite{background:#fff4e2;color:#b26a00}
+.tag.ended{background:#ececec;color:#666}
+.tag.soon{background:#e5f8e9;color:#1f8a3a}
+.ev h3{font-size:21px;line-height:1.4;margin:0 0 14px;font-weight:800}
+.when{display:flex;gap:10px;align-items:center;font-weight:700;color:var(--navy-2);margin-bottom:6px}
+.when .cal{width:52px;height:56px;border-radius:12px;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;line-height:1.05;flex:none}
+.cal em{font-style:normal;font-size:12px;color:var(--muted)}
+.cal strong{font-size:22px}
+.speaker{font-size:14px;color:var(--muted);margin:4px 0 0}
+.desc{color:#43465c;font-size:15px;margin:16px 0 0;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.ev.open .desc{-webkit-line-clamp:unset;display:block}
+.more{background:none;border:0;padding:0;margin-top:8px;color:var(--blue);font-weight:700;cursor:pointer;font-family:inherit;font-size:14px;align-self:flex-start}
+.ev-foot{margin-top:auto;padding-top:22px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.note{font-size:13px;color:#b26a00;font-weight:700}
+.ev.is-ended{opacity:.62}
+.ev.is-ended::before{background:#c9c9c9}
+.hidden{display:none!important}
+.toggle-ended{margin-top:18px;font-size:14px;color:var(--muted);display:flex;gap:8px;align-items:center}
+.toggle-ended input{width:16px;height:16px;accent-color:var(--navy)}
+
+/* resources */
+.res{background:#fff}
+.res-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:40px}
+.rc{display:grid;grid-template-columns:120px 1fr;gap:22px;border:1px solid var(--line);border-radius:var(--radius);padding:24px;background:var(--bg)}
+.book{border-radius:14px;height:150px;display:flex;align-items:flex-end;padding:14px;color:#fff;font-weight:900;font-size:15px;line-height:1.25;box-shadow:inset 0 -60px 60px rgba(0,0,0,.18)}
+.b1{background:linear-gradient(150deg,#2f6bff,#8b5cf6)}.b2{background:linear-gradient(150deg,#22c3e6,#2f6bff)}.b3{background:linear-gradient(150deg,#8b5cf6,#e44fa8)}.b4{background:linear-gradient(150deg,#1fb37a,#22c3e6)}
+.rc h3{margin:0 0 8px;font-size:18px;line-height:1.45}
+.rc p{margin:0 0 16px;color:#4a4d62;font-size:14.5px}
+
+/* final */
+.final{padding-block:80px}
+.final-box{border-radius:32px;padding:56px;background:var(--grad);color:#fff;display:grid;grid-template-columns:1.4fr .6fr;gap:30px;align-items:center;box-shadow:0 30px 60px rgba(123,92,246,.3)}
+.final-box h2{color:#fff;margin:0 0 10px}
+.final-box p{margin:0;color:#eef0ff;font-size:17px}
+.final-actions{display:flex;flex-direction:column;gap:12px;align-items:stretch}
+.final-actions .btn{justify-content:center}
+.btn-white{background:#fff;color:var(--navy)}
+.btn-ghost{background:rgba(255,255,255,.15);color:#fff;border:1px solid rgba(255,255,255,.5)}
+footer{padding-block:32px 48px;color:var(--muted);font-size:13px;border-block-start:1px solid var(--line)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.toast{position:fixed;inset-block-end:24px;inset-inline-start:50%;transform:translateX(-50%) translateY(20px);background:var(--navy);color:#fff;padding:12px 20px;border-radius:999px;font-weight:700;opacity:0;transition:.25s;pointer-events:none;z-index:99}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media (max-width:960px){
+  .hero .wrap,.ignite-top,.final-box{grid-template-columns:1fr}
+  .orb-box{height:380px}
+  .grid4{grid-template-columns:repeat(2,1fr)}
+  .ev-grid,.res-grid{grid-template-columns:1fr}
+  .nav ul{display:none}
+  .nav .btn{margin-inline-start:auto}
+}
+@media (max-width:620px){
+  .stats{grid-template-columns:1fr}.stat{border-inline-end:0;border-block-end:1px solid var(--line)}
+  .grid4{grid-template-columns:1fr}
+  .rc{grid-template-columns:1fr}.book{height:110px}
+  .final-box{padding:34px 24px}
+  section{padding-block:72px}
+  .orb{width:270px;height:270px}
+  .brand .full{display:none}
+}
+@media (prefers-color-scheme:dark){:root{color-scheme:light}}
+@media (prefers-reduced-motion:reduce){.chip{animation:none}html{scroll-behavior:auto}}
+@media print{.nav,.filters,.toggle-ended,.final-actions,.more{display:none}.desc{display:block;-webkit-line-clamp:unset}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="台灣微軟活動首頁">
+      <span class="logo" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      <span>台灣微軟 <span class="x">×</span> <span class="grad-text">AI 活動<span class="full">月報</span></span></span>
+    </a>
+    <ul>
+      <li><a href="#ignite">Ignite 2026</a></li>
+      <li><a href="#events">精選活動</a></li>
+      <li><a href="#resources">精選資源</a></li>
+    </ul>
+    <a class="btn btn-dark btn-sm" href="#events">立即報名</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<div class="hero">
+  <div class="blob a" aria-hidden="true"></div>
+  <div class="blob b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="pill"><span class="dot"></span>Taiwan Event Newsletter｜2026 年 11–12 月</span>
+      <h1>掌握 Ignite 新亮點，<br><span class="grad-text">讓 AI 走向規模化。</span></h1>
+      <p class="lead"><b>Microsoft Ignite</b> 年度科技盛會即將登場，11、12 月也將迎來一系列 AI、Agent、雲端與資安領域的最新技術與產品創新。台灣微軟特別規劃多場精彩活動與技術課程，邀請您探索如何將 AI 從創新概念進一步推向企業級應用。</p>
+      <div class="cta-row">
+        <a class="btn btn-dark" href="#events">查看精選活動 ↓</a>
+        <a class="btn btn-light" href="https://register.ignite.microsoft.com/flow/microsoft/ignite27/welcome/page/welcome" target="_blank" rel="noopener">報名 Ignite 2026 →</a>
+      </div>
+    </div>
+    <div class="orb-box" aria-hidden="true">
+      <div class="orb"><div class="orb-in"><small>11.18 – 11.21 線上</small><strong>Microsoft<br>Ignite 2026</strong><span>Agentic AI 新篇章</span></div></div>
+      <span class="chip" style="top:20px;inset-inline-start:4%">🤖 Agentic AI</span>
+      <span class="chip" style="top:90px;inset-inline-end:0">✨ Copilot</span>
+      <span class="chip" style="bottom:80px;inset-inline-start:0">☁️ Cloud</span>
+      <span class="chip" style="bottom:14px;inset-inline-end:8%">🛡️ Security</span>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><span class="ic" style="background:linear-gradient(135deg,#22c3e6,#2f6bff)">🌐</span><div><b>1 場全球盛會</b><p>Microsoft Ignite 2026 線上參與</p></div></div>
+      <div class="stat"><span class="ic" style="background:linear-gradient(135deg,#8b5cf6,#e44fa8)">🎓</span><div><b>8 場精選課程</b><p>線上課程 × 實體工作坊</p></div></div>
+      <div class="stat"><span class="ic" style="background:linear-gradient(135deg,#1fb37a,#22c3e6)">📘</span><div><b>4 份精選白皮書</b><p>Cowork、Agent、資料與資安</p></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- IGNITE -->
+<section id="ignite" class="dark">
+  <div class="wrap">
+    <div class="ignite-top">
+      <div>
+        <div class="eyebrow">十一月焦點活動｜November Highlights</div>
+        <h2>Microsoft Ignite 2026<br>即將登場！</h2>
+        <p class="sub">來自全球的技術領袖、產品專家、產業先驅與開發者社群將再次齊聚，共同探索 AI 時代的最新創新與未來方向。無論您身在何處，都能線上參與這場全球矚目的科技盛會，第一時間掌握 Microsoft 最新產品發表、技術突破與產業洞察。</p>
+        <div class="topics"><span>Agentic AI</span><span>Microsoft Copilot</span><span>Cloud</span><span>Security</span><span>資料平台</span></div>
+      </div>
+      <div class="date-card">
+        <div class="big">11/18 – 11/21</div>
+        <p>台灣時間｜線上參與<br>聆聽 Satya Nadella 與 Microsoft 領導團隊分享未來願景</p>
+        <a class="btn btn-grad" href="https://register.ignite.microsoft.com/flow/microsoft/ignite27/welcome/page/welcome" target="_blank" rel="noopener">立即加入 Ignite 2026 →</a>
+      </div>
+    </div>
+    <div class="grid4">
+      <div class="hl"><div class="n">01</div><div class="k k1">聽</div><p>聆聽 Microsoft 領導團隊與產品專家分享最新策略與創新進展</p></div>
+      <div class="hl"><div class="n">02</div><div class="k k2">搶</div><p>搶先掌握 Agentic AI、Copilot、Cloud 與 Security 領域的重要趨勢</p></div>
+      <div class="hl"><div class="n">03</div><div class="k k3">看</div><p>了解全球企業如何運用最新技術推動轉型與創新</p></div>
+      <div class="hl"><div class="n">04</div><div class="k k4">聊</div><p>與來自世界各地的技術社群及產業領袖交流洞察與最佳實踐</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section id="events">
+  <div class="wrap">
+    <div class="ev-head">
+      <div>
+        <div class="eyebrow">精選活動｜Featured Events</div>
+        <h2>從趨勢洞察，<span class="grad-text">走向實際應用。</span></h2>
+        <p class="sub">從 Agentic AI、Copilot 與 AI Agent，到應用程式現代化、AI 成本管理與安全治理，結合專家分享與 Hands-on 實作，深入探討 AI 規模化落地的關鍵議題。</p>
+      </div>
+      <div class="filters" role="group" aria-label="篩選活動">
+        <button type="button" data-filter="all" aria-pressed="true">全部</button>
+        <button type="button" data-filter="online" aria-pressed="false">線上</button>
+        <button type="button" data-filter="onsite" aria-pressed="false">實體</button>
+      </div>
+    </div>
+    <label class="toggle-ended"><input type="checkbox" id="showEnded"> 顯示已結束的活動</label>
+
+    <div class="ev-grid" id="evGrid">
+
+      <article class="ev featured" data-type="onsite" data-end="2026-12-02T15:00:00+08:00">
+        <div class="ev-meta"><span class="tag onsite">實體</span><span class="tag invite">邀請制・限額 50 名</span><span class="status"></span></div>
+        <h3>Secure AI at Scale: Microsoft Security Technical Workshop</h3>
+        <div class="when"><span class="cal"><em>12月</em><strong>02</strong></span><span>12/02（三）09:00 – 15:00</span></div>
+        <p class="desc">當 AI Agent 開始存取企業資料、串接系統並自主執行任務，如何看見每一個 Agent、管理其身分與權限，並持續保護資料與應用環境，正成為企業規模化 AI 的重要課題。本場 Microsoft Security Technical Workshop 將從 Agent 的可視性出發，帶您深入身分治理、資料保護與威脅防禦，並透過技術分享與實機操作，了解如何運用 Microsoft Agent 365，結合 Microsoft Entra、Defender 與 Purview，掌握 Shadow AI 與潛在風險，建立涵蓋身分、資料與安全防護的治理機制，為企業打造可信任且可安全規模化的 AI 環境。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span class="note">本活動採邀請制，限額 50 名</span><a class="btn btn-dark btn-sm reg" href="https://msevents.microsoft.com/event?id=3898692261" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev featured" data-type="onsite" data-end="2026-12-08T17:00:00+08:00">
+        <div class="ev-meta"><span class="tag onsite">實體</span><span class="tag series">一日工程實戰</span><span class="status"></span></div>
+        <h3>Microsoft Agent Factory Day：一日企業級 AI Agent 工程實戰</h3>
+        <div class="when"><span class="cal"><em>12月</em><strong>08</strong></span><span>12/08（二）09:00 – 17:00</span></div>
+        <p class="desc">當 AI Agent 從概念驗證走向實際業務應用，企業需要思考的不只是如何開發，更要確保 Agent 能夠穩定運行、安全管理並持續擴展。本場一日實體工程實戰將帶您探索 Agent 從開發、部署到營運與治理的完整生命週期，並掌握 GitHub Universe 與 Microsoft Ignite 最新技術趨勢。透過技術專家的深度分享與 Hands-on 實作，了解如何串聯企業知識、工具與基礎架構，建立更完整的 Agent 開發與管理模式，協助企業突破從 PoC 邁向正式環境的關鍵挑戰，加速 AI Agent 規模化落地。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://msevents.microsoft.com/event?id=1819813360" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-04T15:00:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">AI Genius Series 6</span><span class="status"></span></div>
+        <h3>Microsoft AI Genius Series 6：運用 Microsoft IQ、Evaluations 與 Agent Optimizer，衡量、評測並持續提升 Microsoft Foundry AI Agent</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>04</strong></span><span>11/04（三）14:00 – 15:00</span></div>
+        <p class="desc">打造 AI Agent 並非終點，真正的挑戰在於如何持續確保品質、控制成本並不斷優化效能。本課程將帶您深入了解如何運用 Microsoft Foundry、Evaluations 與 Agent Optimizer，建立可衡量、可持續優化的 Agent 開發流程。透過實際示範，探索如何為 Agent 注入組織情境資訊、建立持續評估機制，並在品質、速度與成本之間取得最佳平衡，打造值得信賴且能持續進化的 AI 工作流程。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://developer.microsoft.com/zh-tw/reactor/events/27661/" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-04T15:00:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">Discovery Sessions・中文授課</span><span class="status"></span></div>
+        <h3>Microsoft Discovery Sessions: Build, Ship, and Secure Software with AI Agents Across the Development Lifecycle</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>04</strong></span><span>11/04（三）14:00 – 15:00</span></div>
+        <p class="speaker">講者｜Stuart Chen，台灣微軟 資深數位解決方案工程師</p>
+        <p class="desc">當 AI 從開發輔助工具進一步成為能參與軟體開發流程的智慧代理，開發團隊正迎來全新的人機協作模式。本場課程將帶您探索 AI Agent 如何融入軟體開發生命週期，從規劃、編碼與測試，到部署、安全與營運，協助團隊提升開發效率並加速軟體交付。透過實務示範，了解如何運用 GitHub、Microsoft Foundry 與 Azure AI，整合 AI 輔助開發、企業知識與工作流程，並兼顧安全與治理，讓 AI 驅動的軟體開發從效率提升進一步走向企業規模化應用。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://events.microsoft.com/flow/microsoft/microsoftds/registration/page/landing?tab.deliverymethod=deliverymethod_live&amp;search.deliverylanguages=option_1790263832989" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-05T12:00:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">Power Hour</span><span class="status"></span></div>
+        <h3>Power Hour: Next Gen Apps with Cowork and Copilot Studio</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>05</strong></span><span>11/05（四）11:00 – 12:00</span></div>
+        <p class="desc">隨著 AI 改變企業打造應用程式的方式，App、Agent 與自動化工作流程正逐漸成為推動業務創新的重要組合。本場課程將帶您探索 Power Platform 如何協助企業因應新一代應用開發需求，靈活運用 Copilot Studio 等工具，串聯 App、Agent 與工作流程，在延伸既有 Power Apps 投資的同時，打造符合不同業務情境的解決方案。透過產品解析與企業實際案例，了解如何兼顧開發彈性、安全與 IT 治理，讓創新應用從概念驗證進一步走向規模化落地。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://msevents.microsoft.com/event?id=776012992" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-10T15:00:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">Discovery Sessions・中文授課</span><span class="status"></span></div>
+        <h3>Microsoft Discovery Sessions: Know What AI Will Cost Before You Scale</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>10</strong></span><span>11/10（二）14:00 – 15:00</span></div>
+        <p class="speaker">講者｜Harvey Wang，台灣微軟 AI 商務解決方案技術顧問</p>
+        <p class="desc">當 AI 從試驗走向規模化應用，使用量快速成長的同時，企業也需要更清楚地掌握成本與資源配置。本場課程將帶您了解 AI 使用量與點數消費之間的關係，並透過早期部署資料，更有效地預測需求、規劃預算與因應未來成長。透過實務示範，探索如何運用 FinOps 能力提升成本透明度、建立適當的控管機制，讓企業在擴大 AI 應用的同時，也能更有策略地管理投入與支出。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://events.microsoft.com/flow/microsoft/microsoftds/registration/page/landing?tab.deliverymethod=deliverymethod_live&amp;search.deliverylanguages=option_1790263832989" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-11T12:40:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">Security Briefing</span><span class="status"></span></div>
+        <h3>Microsoft Security Briefing: 2026 Digital Defense Report Deep-Dive</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>11</strong></span><span>11/11（三）12:00 – 12:40</span></div>
+        <p class="desc">當企業與人員、服務、供應鏈及平台之間的連結日益緊密，這些建立在信任上的關係，也可能成為網路攻擊擴散的新途徑。面對 AI 加速改變攻防速度、規模與威脅樣貌，企業資安需要從保護單一系統，進一步掌握整個數位生態系中的連動風險。本場活動將從 2026 Microsoft Digital Defense Report 的最新洞察出發，解析當前關鍵資安趨勢與攻擊手法，並分享企業如何降低曝險、強化安全基礎與營運韌性，為持續演變的威脅做好準備。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://msevents.microsoft.com/event?id=3292606501" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+      <article class="ev" data-type="online" data-end="2026-11-12T15:00:00+08:00">
+        <div class="ev-meta"><span class="tag online">線上</span><span class="tag series">AI Genius Series 6</span><span class="status"></span></div>
+        <h3>Microsoft AI Genius Series 6：從舊有系統現代化到 AI 維運——運用自我修復 Agent 與企業級營運智慧，推動應用程式現代化與 AI 系統規模化營運</h3>
+        <div class="when"><span class="cal"><em>11月</em><strong>12</strong></span><span>11/12（四）14:00 – 15:00</span></div>
+        <p class="desc">應用程式現代化不只是一場升級工程，如何讓現代化後的 AI 系統持續穩定運作、快速因應問題，更是企業邁向規模化應用的關鍵。本場課程將帶您探索 AI 與 Agent 如何貫穿應用程式現代化與日常維運，從大規模評估與升級，到上線後的監控、問題診斷與修復，協助團隊降低複雜維運工作的負擔。透過實務示範，了解如何建立更自動化、可審查且易於治理的營運模式，在提升開發與維運效率的同時，打造更具韌性且可持續擴展的 AI 應用環境。</p>
+        <button class="more" type="button">看更多 ↓</button>
+        <div class="ev-foot"><span></span><a class="btn btn-dark btn-sm reg" href="https://developer.microsoft.com/zh-tw/reactor/events/27662/" target="_blank" rel="noopener">立即報名 →</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section id="resources" class="res">
+  <div class="wrap">
+    <div class="eyebrow">微軟精選資源｜Featured Resources</div>
+    <h2>白皮書免費下載，<span class="grad-text">隨時充電。</span></h2>
+    <p class="sub">從 AI 工作委派、代理型服務，到資料安全治理與整合式資料平台，四份精選白皮書帶您掌握 Agentic AI 落地的關鍵。</p>
+    <div class="res-grid">
+      <article class="rc"><div class="book b1">Copilot<br>Cowork<br>速成課程</div><div>
+        <h3>《Copilot Cowork 速成課程》白皮書</h3>
+        <p>當 AI 從回應指令走向主動推進工作，企業該如何放心將更多任務交給 AI？帶您掌握 AI 工作委派的實務方法，從定義成果、提供情境到檢視執行計畫，找出適合導入 Agentic 工作模式的流程，在保有人為掌控與問責的同時，讓 AI 創造更實質的業務價值。</p>
+        <a class="btn btn-light btn-sm" href="https://info.microsoft.com/ww-landing-crash-course-in-cowork.html?lcid=ZH-TW" target="_blank" rel="noopener">立即下載 ↓</a></div></article>
+      <article class="rc"><div class="book b2">探索<br>代理型<br>服務</div><div>
+        <h3>《探索代理型服務：為什麼資料、設計和領域專業知識至關重要》白皮書</h3>
+        <p>如何讓 AI Agent 不只完成任務，更真正創造服務價值？從資料、系統設計與領域專業出發，了解如何串聯分散的資料與服務流程、加速問題解決並自動化重複性工作，打造更智慧、靈活且可持續擴展的 Agentic 服務。</p>
+        <a class="btn btn-light btn-sm" href="https://info.microsoft.com/ww-landing-inside-agentic-service.html?lcid=ZH-TW" target="_blank" rel="noopener">立即下載 ↓</a></div></article>
+      <article class="rc"><div class="book b3">AI 時代<br>資料保護<br>3 大挑戰</div><div>
+        <h3>《在 AI 時代保護及控管資料的 3 大挑戰》白皮書</h3>
+        <p>AI 加速創新的同時，也讓資料安全與治理面臨全新挑戰。帶您掌握企業不可忽視的資料風險，了解如何因應分散的安全管理與日益嚴格的合規需求，並透過更一致的安全與治理策略降低風險，為 AI 創新奠定更穩健的基礎。</p>
+        <a class="btn btn-light btn-sm" href="https://info.microsoft.com/ww-landing-top-3-challenges-securing-and-governing-data-for-ai.html?lcid=ZH-TW" target="_blank" rel="noopener">立即下載 ↓</a></div></article>
+      <article class="rc"><div class="book b4">可靠 Agent<br>整合式<br>資料平台</div><div>
+        <h3>《可靠 Agent 的整合式資料平台》白皮書</h3>
+        <p>可靠的 AI Agent，始於可靠的資料。了解如何串聯分散的企業資料，建立一致且受治理的資料基礎，並運用 Microsoft OneLake、Microsoft Fabric 與 Microsoft Foundry，降低資料重複與營運風險，推動 AI 創新走向規模化。</p>
+        <a class="btn btn-light btn-sm" href="https://info.microsoft.com/ww-landing-the-unified-data-platform-for-trusted-agents.html?lcid=ZH-TW" target="_blank" rel="noopener">立即下載 ↓</a></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<div class="final">
+  <div class="wrap">
+    <div class="final-box">
+      <div>
+        <h2>一同探索下一階段的企業 AI 轉型契機</h2>
+        <p>邀請您一同掌握 Microsoft Ignite 最新亮點與 Agentic AI 創新趨勢。名額有限，歡迎轉發給同事一起參加！</p>
+      </div>
+      <div class="final-actions">
+        <a class="btn btn-white" href="#events">挑選活動並報名 →</a>
+        <button class="btn btn-ghost" type="button" id="shareBtn">🔗 分享此頁面</button>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Microsoft Taiwan｜台灣微軟</span>
+    <span>活動時間均為台灣時間（GMT+8）。活動內容如有異動，以各活動報名頁公告為準。</span>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  var now = new Date();
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.ev'));
+  var grid = document.getElementById('evGrid');
+  var showEnded = document.getElementById('showEnded');
+  var filter = 'all';
+  var DAY = 864e5;
+
+  cards.forEach(function(c){
+    var end = new Date(c.getAttribute('data-end'));
+    var st = c.querySelector('.status');
+    var reg = c.querySelector('.reg');
+    if (end < now){
+      c.classList.add('is-ended');
+      st.className = 'tag ended'; st.textContent = '已結束';
+      if (reg){ reg.textContent = '查看活動頁 →'; reg.classList.remove('btn-dark'); reg.classList.add('btn-light'); }
+    } else if (end - now < 7*DAY){
+      st.className = 'tag soon'; st.textContent = '即將開始';
+    } else { st.remove(); }
+  });
+  // upcoming first, ended after (keep chronological within each group)
+  cards.filter(function(c){return !c.classList.contains('is-ended');})
+       .concat(cards.filter(function(c){return c.classList.contains('is-ended');}))
+       .forEach(function(c){ grid.appendChild(c); });
+
+  var hasEnded = cards.some(function(c){return c.classList.contains('is-ended');});
+  if (!hasEnded) showEnded.parentNode.classList.add('hidden');
+
+  function apply(){
+    cards.forEach(function(c){
+      var okType = filter === 'all' || c.getAttribute('data-type') === filter;
+      var okTime = showEnded.checked || !c.classList.contains('is-ended');
+      c.classList.toggle('hidden', !(okType && okTime));
+    });
+  }
+  document.querySelectorAll('.filters button').forEach(function(b){
+    b.addEventListener('click', function(){
+      filter = b.getAttribute('data-filter');
+      document.querySelectorAll('.filters button').forEach(function(x){ x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  showEnded.addEventListener('change', apply);
+  apply();
+
+  document.querySelectorAll('.more').forEach(function(m){
+    m.addEventListener('click', function(){
+      var card = m.closest('.ev'); var open = card.classList.toggle('open');
+      m.textContent = open ? '收合 ↑' : '看更多 ↓';
+    });
+  });
+
+  var toast = document.getElementById('toast');
+  function say(t){ toast.textContent = t; toast.classList.add('show'); setTimeout(function(){ toast.classList.remove('show'); }, 2200); }
+  document.getElementById('shareBtn').addEventListener('click', function(){
+    var url = location.href.split('#')[0];
+    if (navigator.share){ navigator.share({ title: document.title, url: url }).catch(function(){}); return; }
+    if (navigator.clipboard){ navigator.clipboard.writeText(url).then(function(){ say('已複製連結，可直接貼給客戶'); }, function(){ say(url); }); }
+    else { say(url); }
+  });
+})();
+</script>
+</body>
+</html>
